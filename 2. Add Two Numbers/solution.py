@@ -3,6 +3,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode, c=0) -> ListNode:
         val = l1.val + l2.val + c
